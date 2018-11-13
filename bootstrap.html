@@ -1,0 +1,67 @@
+<!-- bootstrap.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 支持移动设备优先 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- 引入CSS文件 -->
+	<link rel="stylesheet" type="text/css" href="E:\temp\bootstrap\css\bootstrap.min.css">
+	<!-- 引入jQuery文件 -->
+	<script type="text/javascript" src="E:\temp\bootstrap\js\jQuery.js"></script>
+	<!-- 引入bootstrap文件 -->
+	<script type="text/javascript" src="E:\temp\bootstrap\js\bootstrap.min.js"></script>
+	<style type="text/css">
+		.border {
+			border: 1px red solid;
+		}
+		
+		/*隔行变色*/
+		table.table-striped tr:nth-child(odd){
+			background: skyblue;
+		}
+
+		/*鼠标放上的效果*/
+		table.table-hover tr:hover {
+			background: skyblue;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="container" style="border: 1px red solid">
+		this is container
+	</div> -->
+	<!-- <div class="container-fluid" style="border: 1px red solid">
+		this is container-fluid
+	</div> -->
+
+	<!-- <div class="container">
+		<form>
+			<div class="form-group form-inline">
+				<label for="user">用户名</label>
+				<input type="text" name="" class="form-control" id="user">
+			</div>
+		</form>
+	</div> -->
+
+	<!-- <div class="container">
+		<span class="glyphicon glyphicon-ok"></span>
+	</div> -->
+
+	<div class="container">
+		<div class="dropdown">
+			<span class="btn btn-success" data-toggle="dropdown">hello world
+			<span class="caret"></span>
+			</span>
+
+			<ul class="dropdown-menu">
+			<li><a href="#">html</a></li>
+			<li class="divider"><a href="#">css</a></li>
+			<li><a href="#">java</a></li>
+			<li><a href="#">android</a></li>
+		</ul>
+		</div>
+	</div>
+</body>
+</html>
